@@ -1,12 +1,12 @@
 // Mock stock data for demo (replace with real API like Alpha Vantage, Yahoo Finance, etc.)
 const MOCK_STOCKS = {
-  AAPL: { symbol: 'AAPL', name: 'Apple Inc.', price: 189.30, change: 2.45, changePercent: 1.31, sector: 'Technology', marketCap: '2.95T', pe: 31.2, volume: '54.2M' },
-  GOOGL: { symbol: 'GOOGL', name: 'Alphabet Inc.', price: 141.80, change: -0.95, changePercent: -0.67, sector: 'Technology', marketCap: '1.77T', pe: 25.8, volume: '23.1M' },
-  MSFT: { symbol: 'MSFT', name: 'Microsoft Corp.', price: 378.85, change: 5.20, changePercent: 1.39, sector: 'Technology', marketCap: '2.82T', pe: 35.1, volume: '21.4M' },
-  AMZN: { symbol: 'AMZN', name: 'Amazon.com Inc.', price: 178.25, change: 3.10, changePercent: 1.77, sector: 'Consumer Discretionary', marketCap: '1.85T', pe: 62.4, volume: '41.3M' },
-  TSLA: { symbol: 'TSLA', name: 'Tesla Inc.', price: 248.50, change: -8.75, changePercent: -3.40, sector: 'Automotive', marketCap: '790B', pe: 78.9, volume: '98.7M' },
+  APPLE: { symbol: 'APPLE', name: 'Apple Inc.', price: 189.30, change: 2.45, changePercent: 1.31, sector: 'Technology', marketCap: '2.95T', pe: 31.2, volume: '54.2M' },
+  GOOGLE: { symbol: 'GOOGLE', name: 'Alphabet Inc.', price: 141.80, change: -0.95, changePercent: -0.67, sector: 'Technology', marketCap: '1.77T', pe: 25.8, volume: '23.1M' },
+  MICROSOFT: { symbol: 'MICROSOFT', name: 'Microsoft Corp.', price: 378.85, change: 5.20, changePercent: 1.39, sector: 'Technology', marketCap: '2.82T', pe: 35.1, volume: '21.4M' },
+  AMZON: { symbol: 'AMZON', name: 'Amazon.com Inc.', price: 178.25, change: 3.10, changePercent: 1.77, sector: 'Consumer Discretionary', marketCap: '1.85T', pe: 62.4, volume: '41.3M' },
+  TESLA: { symbol: 'TESLA', name: 'Tesla Inc.', price: 248.50, change: -8.75, changePercent: -3.40, sector: 'Automotive', marketCap: '790B', pe: 78.9, volume: '98.7M' },
   META: { symbol: 'META', name: 'Meta Platforms', price: 502.10, change: 12.30, changePercent: 2.51, sector: 'Technology', marketCap: '1.28T', pe: 27.3, volume: '18.9M' },
-  NVDA: { symbol: 'NVDA', name: 'NVIDIA Corp.', price: 875.40, change: 22.15, changePercent: 2.60, sector: 'Technology', marketCap: '2.16T', pe: 68.5, volume: '42.1M' },
+  NVINDA: { symbol: 'NVINDA', name: 'NVIDIA Corp.', price: 875.40, change: 22.15, changePercent: 2.60, sector: 'Technology', marketCap: '2.16T', pe: 68.5, volume: '42.1M' },
   JPM: { symbol: 'JPM', name: 'JPMorgan Chase', price: 198.70, change: 1.85, changePercent: 0.94, sector: 'Financials', marketCap: '572B', pe: 12.1, volume: '9.8M' },
   JNJ: { symbol: 'JNJ', name: 'Johnson & Johnson', price: 152.40, change: -0.60, changePercent: -0.39, sector: 'Healthcare', marketCap: '367B', pe: 14.8, volume: '7.5M' },
   V: { symbol: 'V', name: 'Visa Inc.', price: 274.90, change: 3.20, changePercent: 1.18, sector: 'Financials', marketCap: '558B', pe: 30.4, volume: '6.2M' },
