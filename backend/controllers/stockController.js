@@ -11,8 +11,8 @@ const MOCK_STOCKS = {
   JNJ: { symbol: 'JNJ', name: 'Johnson & Johnson', price: 152.40, change: -0.60, changePercent: -0.39, sector: 'Healthcare', marketCap: '367B', pe: 14.8, volume: '7.5M' },
   V: { symbol: 'V', name: 'Visa Inc.', price: 274.90, change: 3.20, changePercent: 1.18, sector: 'Financials', marketCap: '558B', pe: 30.4, volume: '6.2M' },
   WMT: { symbol: 'WMT', name: 'Walmart Inc.', price: 68.45, change: 0.75, changePercent: 1.11, sector: 'Consumer Staples', marketCap: '551B', pe: 29.8, volume: '14.1M' },
-  DIS: { symbol: 'DIS', name: 'Walt Disney Co.', price: 111.20, change: -1.30, changePercent: -1.16, sector: 'Communication', marketCap: '204B', pe: 45.2, volume: '11.2M' },
-  NFLX: { symbol: 'NFLX', name: 'Netflix Inc.', price: 628.90, change: 15.40, changePercent: 2.51, sector: 'Communication', marketCap: '272B', pe: 45.8, volume: '5.1M' },
+  DISNEY: { symbol: 'DISNEY', name: 'Walt Disney Co.', price: 111.20, change: -1.30, changePercent: -1.16, sector: 'Communication', marketCap: '204B', pe: 45.2, volume: '11.2M' },
+  NETFLIX: { symbol: 'NETFLIX', name: 'Netflix Inc.', price: 628.90, change: 15.40, changePercent: 2.51, sector: 'Communication', marketCap: '272B', pe: 45.8, volume: '5.1M' },
   BA: { symbol: 'BA', name: 'Boeing Co.', price: 198.30, change: -3.20, changePercent: -1.59, sector: 'Industrials', marketCap: '121B', pe: null, volume: '8.9M' },
   GS: { symbol: 'GS', name: 'Goldman Sachs', price: 448.60, change: 6.70, changePercent: 1.52, sector: 'Financials', marketCap: '145B', pe: 15.3, volume: '2.1M' }
 };
